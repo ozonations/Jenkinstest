@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Cloning repository...'
                 // Jika kamu pakai GitHub, bisa pakai:
-                // git url: 'https://github.com/username/repo.git'
+                git url: 'https://github.com/ozonations/Jenkinstest.git'
                 sh 'ls -la'
             }
         }
